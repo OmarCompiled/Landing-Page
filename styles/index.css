@@ -3,6 +3,7 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-family: "Roboto", serif;
     padding: 0;
     margin: 0;
@@ -27,6 +28,7 @@ body{
     align-items: center;
     background-color: #1F2937;
     padding: 0 200px;
+    padding-bottom: 32px;
     gap: 16px;
 }
 
@@ -48,7 +50,7 @@ body{
     font-size: 18px;
 }
 
-#hero-button{
+#hero-button input{
     background-color: #3882F6;
     border: none;
     padding: 8px;
@@ -89,14 +91,17 @@ body{
     border-radius: 10px;
 }
 
-.quote{
+#extra{
     display: flex;
     flex-direction: column;
+}
+.quote{
+    display: flex;
     justify-content: center;
+    align-items: center;
     gap: 32px;
     background-color: #E5E7EB;
     height: 200px;
-
 }
 
 #quote-text{
@@ -107,7 +112,20 @@ body{
 }
 
 #quote-info{
-    align-self: center;
+    align-self: flex-end;
+    font-size: 18px;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blue-box{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
 }
 
 ul{
