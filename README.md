@@ -3,4 +3,4 @@
 #### Credits
 The first image belongs to Vlada Karpovich : form Pexel
 
-The other belong to yayangart : from Pixabay
+The others(i.e the paintings) belong to yayangart : from Pixabay
